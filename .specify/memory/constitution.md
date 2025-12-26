@@ -1,55 +1,100 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report
+
+- Version change: 0.0.0 → 1.0.0
+- List of modified principles:
+  - PRINCIPLE_1_NAME -> I. Spec-First Execution
+  - PRINCIPLE_2_NAME -> II. Technical Correctness
+  - PRINCIPLE_3_NAME -> III. Progressive Clarity
+  - PRINCIPLE_4_NAME -> IV. Practical Grounding
+  - PRINCIPLE_5_NAME -> V. AI-Compatible Structure
+- Added sections:
+  - Documentation & Writing Standards
+  - Docusaurus Requirements
+  - AI & Spec-Kit Plus Governance
+  - Version Control & GitHub Discipline
+  - Constraints
+  - Success Criteria
+- Removed sections:
+  - PRINCIPLE_6
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md
+  - - .specify/templates/spec-template.md
+  - - .specify/templates/tasks-template.md
+- Follow-up TODOs: None
+-->
+# Humanoid Robotics Book Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Spec-First Execution
+Every chapter, section, and change must originate from an approved spec.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Technical Correctness
+All robotics, AI, and software concepts must be accurate and defensible.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Progressive Clarity
+Content must evolve from foundational concepts to advanced topics.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Practical Grounding
+Theory must be reinforced with examples, diagrams, or code.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. AI-Compatible Structure
+Writing must support automated review, iteration, and validation.
 
-### [PRINCIPLE_6_NAME]
+## Documentation & Writing Standards
 
+- Target audience: students and practitioners with basic programming knowledge
+- Language: precise technical English, concise and unambiguous
+- Every chapter must include:
+  - Clear learning objectives
+  - Conceptual explanation
+  - Practical examples or real-world applications
+  - A concise summary
+- Terminology and naming conventions must remain consistent across the book.
 
-[PRINCIPLE__DESCRIPTION]
+## Docusaurus Requirements
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+- All content must be written in Docusaurus-compatible Markdown.
+- Pages must include frontmatter metadata (title, description).
+- Sidebar structure must reflect a logical learning progression.
+- Images and diagrams must reside in a dedicated assets directory.
+- All internal links must be relative, valid, and build-safe.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## AI & Spec-Kit Plus Governance
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+- Spec-Kit Plus is the single source of truth for structure and tasks.
+- Claude Code may operate only within explicitly defined specs.
+- No content may be written, edited, or expanded without an associated spec.
+- Specs must be updated before content changes, never retroactively.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Version Control & GitHub Discipline
+
+- GitHub is the authoritative repository of record.
+- A commit is mandatory after each completed step, including:
+  - Spec creation or modification
+  - Chapter or section draft completion
+  - Revisions, corrections, or refactors
+- Commits must be small, atomic, and descriptively messaged.
+- Long-lived uncommitted changes are prohibited.
+
+## Constraints
+
+- Output format: Docusaurus site deployed via GitHub Pages
+- All content must be original and plagiarism-free.
+- Code examples must be executable or clearly illustrative.
+- External references must be cited or linked explicitly.
+
+## Success Criteria
+
+- The book builds successfully with Docusaurus without errors.
+- GitHub Pages deployment is live and accessible.
+- Every chapter and section maps directly to an approved spec.
+- Content is technically accurate, structured, and readable.
+- Git history demonstrates disciplined, incremental progress.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution guides the development of the Humanoid Robotics Book. All development activities must adhere to these principles and standards. Amendments to this constitution require documentation, review, and approval.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-26 | **Last Amended**: 2025-12-26

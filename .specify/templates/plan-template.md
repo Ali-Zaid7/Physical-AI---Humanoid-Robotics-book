@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Spec-First Execution**: Does this plan originate from an approved spec?
+- [ ] **Technical Correctness**: Are the concepts and technologies in this plan accurate and defensible?
+- [ ] **Progressive Clarity**: Does the plan build from simple concepts to more advanced ones?
+- [ ] **Practical Grounding**: Is theory reinforced with examples, diagrams, or code?
+- [ ] **AI-Compatible Structure**: Does the plan support automated review, iteration, and validation?
 
 ## Project Structure
 
