@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Docusaurus
+.docusaurus/
+.swc/
+build/
+dist/
+.cache-loader/
+
+# Misc
+.DS_Store
+*.pem
+*.log*
+.env*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
