@@ -1,6 +1,6 @@
 # Physical AI & Humanoid Robotics: An AI-Native Textbook
 
-**[Live Website](http://physical-ai-humanoid-robotics-book-taupe-iota.vercel.app/docs/vision-language-action/003-vision-language-action-04-capstone-and-conclusion)** | **[Project Showcase](https://www.linkedin.com/posts/ali-zaid-ba83a4381_humanoidrobotics-physicalai-ros2-activity-7414926543174569984-tIQb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF41P7AB4pdxN_-Nvlb4wQkrwZbfg7Q0fHA)** | **[X Account](https://x.com/AliZaidDev/status/2009163113514586165?s=20)** 
+**[Live Website](http://physical-ai-humanoid-robotics-book-taupe-iota.vercel.app)** | **[Project Showcase](https://www.linkedin.com/posts/ali-zaid-ba83a4381_humanoidrobotics-physicalai-ros2-activity-7414926543174569984-tIQb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF41P7AB4pdxN_-Nvlb4wQkrwZbfg7Q0fHA)** | **[X Account](https://x.com/AliZaidDev/status/2009163113514586165?s=20)** 
 
 Welcome to the official repository for the "Physical AI & Humanoid Robotics" book, an open-source, AI-native textbook platform dedicated to the fascinating world of robotics.
 
